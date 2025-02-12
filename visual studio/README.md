@@ -1,4 +1,4 @@
-# Başlık1 md ile
+# Başlık1 md ile...
 <h1>Hoşgeldiniz</h1>
 <h1 style="color:red">Başlık1</h1>
 <h2 style="color:blue">Başlık1</h2>
