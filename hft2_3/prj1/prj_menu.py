@@ -1,5 +1,6 @@
 import hm_menu as hm
 import oyn_menu as oyn
+import sttng_menu as set
 
 
 def vektorelappmenu():
@@ -15,9 +16,20 @@ def vektorelappmenu():
     print("║                                        ║")
     print("║         3-Ayarlar                      ║")
     print("║                                        ║")
-    print("║         4-                             ║")
+    print("║         4-Takvim                       ║")
     print("║                                        ║")
-    print("║                                        ║")    
+    print("║         5-Not Hesaplama                ║")
+    print("║                                        ║")
+    print("║         6-Sıcaklık Çevirme             ║")
+    print("║                                        ║")
+    print("║         7-Döviz Uygulaması             ║")
+    print("║                                        ║")
+    print("║         8-Ritmik Sayma                 ║")
+    print("║                                        ║")
+    print("║         9-Şekil Çizdirme               ║")
+    print("║                                        ║")
+    print("║        10-BMI Hesaplama                ║")
+    print("║                                        ║")
     print("║             Surum 1.9.3                ║")
     print("╚════════════════════════════════════════╝")
 
@@ -25,3 +37,4 @@ vektorelappmenu()
 secim = input("Seçiminiz nedir?")
 if secim == "1" : hm.hmmenu()
 if secim == "2" : oyn.oynmenu()
+if secim == "3" : set.stmenu()
